@@ -10,11 +10,7 @@ This repository uses **Git Large File Storage (Git LFS)** for storing large file
 
 ---
 
-# 🧠 What is Git LFS?
-
-Git LFS replaces large files in Git with small text pointers.
-
-# 🪟 1. Install Git LFS on Windows
+# How to download?
 
 ## Step 1 — Download Git LFS installer and Install it
 
