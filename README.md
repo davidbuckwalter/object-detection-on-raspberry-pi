@@ -34,6 +34,8 @@ sudo apt install ./*.deb
 
 cd ..
 cd ..
+python3 -m venv .venv
+source .venv/bin/activate
 pip install --no-index --find-links=packages/ -r requirements.txt
 ```
 
