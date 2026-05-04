@@ -1,31 +1,33 @@
-# 🧠 Object Detection on Raspberry Pi (Offline + Git LFS Supported)
+# 📦 Downloading Git LFS Files on Windows
 
-This project contains an **object detection system for Raspberry Pi 4B**, including:
-- Python code
-- Pre-downloaded dependencies (APT + pip)
-- Large model / package support via **Git LFS**
-- Offline installation workflow
-
----
-
-# ⚠️ Important Notice
-
-This repository uses **Git LFS (Large File Storage)** for large files such as:
+This repository uses **Git Large File Storage (Git LFS)** for storing large files such as:
 - `.deb` packages
 - `.whl` Python wheels
 - ML models
-- Prebuilt dependencies
+- datasets and binaries
 
-👉 You MUST install Git LFS before cloning.
+⚠️ IMPORTANT: If you do NOT use Git LFS correctly, you will only download *pointer files*, not real data.
 
 ---
 
-# 🚀 1. Prerequisites
+# 🧠 What is Git LFS?
 
-## Install Git LFS
+Git LFS replaces large files in Git with small text pointers.
 
-### Ubuntu / Debian
-```bash
-sudo apt update
-sudo apt install git-lfs -y
+# 🪟 1. Install Git LFS on Windows
+
+## Step 1 — Download Git LFS installer and Install it
+
+👉 https://git-lfs.com/
+
+Run the installer and complete setup.
+
+---
+
+## Step 2 — Enable Git LFS and Clone this repository
+
+Open **Command Prompt** or **Git Bash**:
+
+```
 git lfs install
+git clone https://github.com/davidbuckwalter/object-detection-on-raspberry-pi
